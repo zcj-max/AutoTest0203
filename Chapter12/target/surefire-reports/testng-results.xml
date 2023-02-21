@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="用户管理系统测试套件" duration-ms="4024" started-at="2023-02-19T13:51:14Z" finished-at="2023-02-19T13:51:18Z">
+    <groups>
+      <group name="loginTrue">
+        <method signature="LoginTest.loginTrue()[pri:0, instance:com.tester.cases.LoginTest@7c30a502]" name="loginTrue" class="com.tester.cases.LoginTest"/>
+      </group> <!-- loginTrue -->
+    </groups>
+    <test name="用户管理系统测试用例" duration-ms="4024" started-at="2023-02-19T13:51:14Z" finished-at="2023-02-19T13:51:18Z">
+      <class name="com.tester.cases.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tester.cases.LoginTest@7c30a502]" name="beforeTest" is-config="true" duration-ms="60" started-at="2023-02-19T21:51:14Z" description="测试准备工作,获取HttpClient对象" finished-at="2023-02-19T21:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTrue()[pri:0, instance:com.tester.cases.LoginTest@7c30a502]" name="loginTrue" duration-ms="3948" started-at="2023-02-19T21:51:14Z" description="用户成功登陆接口" finished-at="2023-02-19T21:51:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTrue -->
+      </class> <!-- com.tester.cases.LoginTest -->
+    </test> <!-- 用户管理系统测试用例 -->
+  </suite> <!-- 用户管理系统测试套件 -->
+</testng-results>
